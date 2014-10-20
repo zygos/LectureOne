@@ -18,7 +18,7 @@ git commands always come in the same form:
 
     git <command> <options>
 
-For example, to push your changes to a server you might write `git push`; don't worry about what that actually means for now, you'll understand it later.
+For example, to push your changes to a server you might write `git push` but don't worry about what that actually means for now; you'll understand it later.
 
 ### Basic Commands ###
 
@@ -35,5 +35,15 @@ There are a few basic commands that you really need to know to be able to use gi
 `git commit -m"Update README.md with new lecture notes".
 
 `git push <where> <branch>` - &quot;Pushes&quot; your changes online to a remote repository, onto a given branch. Usually you'll write something like `git push origin master` but given that this is the default you can write `git push` as a shortcut.
+
+### Further Reading ###
+
+####The git Book####
+Without a shadow of a doubt, the absolute best resource for learning git is the free ebook available at http://git-scm.com/book which contains basically everything you need to know. I'd reccommend reading at least chapters 1-3 (inclusive) and after that you should know most of the important stuff about using git.
+
+For details on specific commands, you can either run `man git` at a terminal, or run the commands with `-h` for a quick overview or `--help` for a detailed description. For example, to get details information about the commit command you'd write    
+`git commit --help`.
+
+The rest of your learning is probably going to happen through trial and error. Don't worry too much about messing up because it's actually quite hard to delete something permanently in git.
 
 ##### More To Come #####
