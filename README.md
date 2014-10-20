@@ -41,9 +41,11 @@ There are a few basic commands that you really need to know to be able to use gi
 ####The git Book####
 Without a shadow of a doubt, the absolute best resource for learning git is the free ebook available at http://git-scm.com/book which contains basically everything you need to know. I'd reccommend reading at least chapters 1-3 (inclusive) and after that you should know most of the important stuff about using git.
 
+####man git####
 For details on specific commands, you can either run `man git` at a terminal, or run the commands with `-h` for a quick overview or `--help` for a detailed description. For example, to get details information about the commit command you'd write    
 `git commit --help`.
 
+####Where Next?####
 The rest of your learning is probably going to happen through trial and error. Don't worry too much about messing up because it's actually quite hard to delete something permanently in git.
 
 ##### More To Come #####
