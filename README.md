@@ -32,7 +32,7 @@ There are a few basic commands that you really need to know to be able to use gi
 `git add README.md LICENSE`
 
 - `git commit` - &quot;Commit&quot; your changes since the last version. This doesn't mean they're saved online, only on your local machine. Usually you'll not want to call just `git commit` on its own, because you should be writing commit messages. For example, when I change this file (README.md) I might write:    
-`git commit -m"Update README.md with new lecture notes".
+`git commit -m"Update README.md with new lecture notes"`.
 
 - `git push <where> <branch>` - &quot;Pushes&quot; your changes online to a remote repository, onto a given branch. Usually you'll write something like `git push origin master` but given that this is the default you can write `git push` as a shortcut.
 
