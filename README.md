@@ -39,7 +39,12 @@ There are a few basic commands that you really need to know to be able to use gi
 - `git pull <where> <branch>` - &quot;Pulls&quot; changes from a remote repository onto your local repository. Useful when collaboarating on a team project.
 
 ### More Commands ###
-As I said before, the above isn't anywhere near an exhaustive list of commands. Also very important are `git branch`, `git fetch` and `git merge`. If you have a subversion repository and you can't change the repository to git, there is an interface called `git svn` that allows you to use git locally and push to your svn repo. That's out of the scope of this lecture, but you can find out more in the git help pages.
+As I said before, the above isn't anywhere near an exhaustive list of commands. Also very important 
+are `git branch`, `git rebase`, `git fetch` and `git merge`.
+
+If you have a subversion repository and you can't change the repository to git, there is an interface
+called `git svn` that allows you to use git locally and push to your svn repo. That's out of the scope
+of this lecture, but you can find out more in the git help pages.
 
 ### Further Reading ###
 
