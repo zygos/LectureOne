@@ -31,10 +31,15 @@ There are a few basic commands that you really need to know to be able to use gi
 - `git add <file>` - Adds a file so that when you next commit, changes will be preserved. To start with you should do this for every file you change; there are shortcuts too. For example, if I change both README.md and LICENSE I might write    
 `git add README.md LICENSE`
 
--= `git commit` - &quot;Commit&quot; your changes since the last version. This doesn't mean they're saved online, only on your local machine. Usually you'll not want to call just `git commit` on its own, because you should be writing commit messages. For example, when I change this file (README.md) I might write:    
+- `git commit` - &quot;Commit&quot; your changes since the last version. This doesn't mean they're saved online, only on your local machine. Usually you'll not want to call just `git commit` on its own, because you should be writing commit messages. For example, when I change this file (README.md) I might write:    
 `git commit -m"Update README.md with new lecture notes".
 
 - `git push <where> <branch>` - &quot;Pushes&quot; your changes online to a remote repository, onto a given branch. Usually you'll write something like `git push origin master` but given that this is the default you can write `git push` as a shortcut.
+
+- `git pull <where> <branch>` - &quot;Pulls&quot; changes from a remote repository onto your local repository. Useful when collaboarating on a team project.
+
+### More Commands ###
+As I said before, the above isn't anywhere near an exhaustive list of commands. Also very important are `git branch`, `git fetch` and `git merge`. If you have a subversion repository and you can't change the repository to git, there is an interface called `git svn` that allows you to use git locally and push to your svn repo. That's out of the scope of this lecture, but you can find out more in the git help pages.
 
 ### Further Reading ###
 
