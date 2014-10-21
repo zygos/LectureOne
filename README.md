@@ -38,6 +38,8 @@ There are a few basic commands that you really need to know to be able to use gi
 
 - `git pull <where> <branch>` - &quot;Pulls&quot; changes from a remote repository onto your local repository. Useful when collaboarating on a team project.
 
+- `git log --pretty=oneline -<num>` - Shows *num* lines from your log; this equates to your last *num* commits. `--pretty=oneline` is my favourite formatting option for the increased readability it provides. There are a tonne more options for displaying various things.
+
 ### More Commands ###
 As I said before, the above isn't anywhere near an exhaustive list of commands. Also very important 
 are `git branch`, `git rebase`, `git fetch` and `git merge`.
